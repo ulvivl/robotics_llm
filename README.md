@@ -12,10 +12,10 @@
 Первый метод
 1. Скачать проект с репозитория на GitHub;
 2. Скачать файлы из репозитория с моделью LLava
-  ```
-  git clone https://github.com/haotian-liu/LLaVA.git
-  cd LLaVA
-  ```
+        ```
+        git clone https://github.com/haotian-liu/LLaVA.git
+        cd LLaVA
+        ```
 4. Установить необходимые для запуска библиотеки
    ```
    conda create -n llava python=3.10 -y
