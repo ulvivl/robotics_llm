@@ -9,7 +9,7 @@
 В данном репозитории содержатся файлы, необходимые для запуска предложенных решений. В папке `train_dataset` находится обучающий датасет: `train_dataset.json` -- файл с запросом пользователя и правильной последовательностью команд, 'train_images' -- папка с картинками, задающими начальное положение робота 
 
 ## Процесс запуска:
-Первый метод
+### Первый метод
 1. Скачать проект с репозитория на GitHub
       ```
       git clone https://github.com/ulvivl/robotics_llm.git
@@ -17,8 +17,7 @@
       ```
 2. Скачать файлы из репозитория с моделью LLava
       ```
-      git clone https://github.com/haotian-liu/LLaVA.git
-      cd LLaVA
+      git clone https://github.com/ulvivl/robotics_llm.git
       ```
 3. Установить необходимые для запуска библиотеки
       ```
@@ -27,4 +26,6 @@
       pip install --upgrade pip  # enable PEP 660 support
       pip install -e .
       ```                   
-4. Запустить ноутбука llava_pipeline.ipynb 
+4. Запустить ноутбука llava_pipeline.ipynb
+
+### Второй метод
