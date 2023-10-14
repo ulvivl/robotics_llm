@@ -10,17 +10,21 @@
 
 ## Процесс запуска:
 Первый метод
-1. Скачать проект с репозитория на GitHub;
+1. Скачать проект с репозитория на GitHub
+      ```
+      git clone https://github.com/ulvivl/robotics_llm.git
+      cd LLaVA
+      ```
 2. Скачать файлы из репозитория с моделью LLava
       ```
       git clone https://github.com/haotian-liu/LLaVA.git
       cd LLaVA
       ```
-4. Установить необходимые для запуска библиотеки
+3. Установить необходимые для запуска библиотеки
       ```
       conda create -n llava python=3.10 -y
       conda activate llava
       pip install --upgrade pip  # enable PEP 660 support
       pip install -e .
       ```                   
-5. Запустить ноутбука llava_pipeline.ipynb 
+4. Запустить ноутбука llava_pipeline.ipynb 
