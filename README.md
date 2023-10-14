@@ -17,10 +17,10 @@
       cd LLaVA
       ```
 4. Установить необходимые для запуска библиотеки
-        ```
-                conda create -n llava python=3.10 -y
-                conda activate llava
-                pip install --upgrade pip  # enable PEP 660 support
-                pip install -e .
-        ```                   
+      ```
+      conda create -n llava python=3.10 -y
+      conda activate llava
+      pip install --upgrade pip  # enable PEP 660 support
+      pip install -e .
+      ```                   
 5. Запустить ноутбука llava_pipeline.ipynb 
