@@ -12,15 +12,15 @@
 Первый метод
 1. Скачать проект с репозитория на GitHub;
 2. Скачать файлы из репозитория с моделью LLava
+           ```
+                git clone https://github.com/haotian-liu/LLaVA.git
+                cd LLaVA
+           ```
+4. Установить необходимые для запуска библиотеки
         ```
-        git clone https://github.com/haotian-liu/LLaVA.git
-        cd LLaVA
-        ```
-3. Установить необходимые для запуска библиотеки
-        ```
-        conda create -n llava python=3.10 -y
-        conda activate llava
-        pip install --upgrade pip  # enable PEP 660 support
-        pip install -e .
+                conda create -n llava python=3.10 -y
+                conda activate llava
+                pip install --upgrade pip  # enable PEP 660 support
+                pip install -e .
         ```                   
-4. Запустить ноутбука llava_pipeline.ipynb 
+5. Запустить ноутбука llava_pipeline.ipynb 
