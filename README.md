@@ -13,11 +13,11 @@
 1. Скачать проект с репозитория на GitHub
       ```
       git clone https://github.com/ulvivl/robotics_llm.git
-      cd LLaVA
       ```
 2. Скачать файлы из репозитория с моделью LLava
       ```
-      git clone https://github.com/ulvivl/robotics_llm.git
+      git clone https://github.com/haotian-liu/LLaVA.git
+      cd LLaVA
       ```
 3. Установить необходимые для запуска библиотеки
       ```
