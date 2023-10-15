@@ -32,3 +32,8 @@
 1. Выполнить шаги, необходимые для запуска Первого метода.
 2. Запустить ячейки ноутбука zephyr_llava_dual_multithread_dataframe.ipynb
 3. Результат выполнения будет в ячейке `parsed_cmd`
+
+### Подходы
+1. Использование модели Llava (llava_pipeline.ipynb)
+2. Использование модели Llava совместно с моделью на базе мистраль (zephyr_llava_dual_multithread_dataframe.ipynb)
+3. Попытка обучить модель на задачу VQA на обучающем датасете (fine-tune-BLIP.ipynb)
